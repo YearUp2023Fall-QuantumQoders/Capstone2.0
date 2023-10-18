@@ -6,7 +6,7 @@
 
 
 
-Welcome to Gimme Sugar Bakerry.
+Welcome to Gimme Sugar Bakery. This is my first Capstone for the JavaScript learning track. The assignment was to create an ecommerce website that is nonfunctionalable. I decided to make my site based on one of my hobbies, which is baking. I had a lot of fun but faced some challenges being that this was a first during my learning process. This was a great practice for my intro to tech. This project made me think more about what I really want to do in the tech industy and if UX Design would still be an interest. I enjoyed working on this project, being that I have a business of my own that I'm working on and interested in creating a website but didnt know where to start until this project. One thing I struggled with the most while doing this project is the alignments of forms, and my product page. I do plan to continue to work and build on this website as I learn more in this field.
 
 div class="container text-center">
     <div class="row">
