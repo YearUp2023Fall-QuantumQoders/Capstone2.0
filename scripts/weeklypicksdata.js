@@ -1,4 +1,4 @@
- const weeklypicks = [
+ const weeklyPicks = [
     {
       "name": "Red Velvet Brownies",
       "description": "Indulge in the rich and decadent flavor of red velvet brownies. Each bite is a perfect balance of moistness and chocolatey goodness.",

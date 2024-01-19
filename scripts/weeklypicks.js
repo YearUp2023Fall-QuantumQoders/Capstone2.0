@@ -1,17 +1,28 @@
 "use strict"
 
-
-const redVeletBtn= getElementbyId("redVelvetBrownies");
-const carrotCakeBtn= getElementbyId("carrotCakeCookies");
-const whiteChocBtn= getElementbyId("whiteChocolateBrownies");
-const oreoBtn= getElementbyId("oreoBrownies");
+const weeklyPicksDropdown =document.getElementById('weeklyPicksDropdown');
 
 
 window.onload=init;
 
 
 function init(){
-       
+initWeeklyDropdown();
+ weeklyPicksDropdown.onchange= onWeeklyPickDropdownChanged;
+}
+
+
+function initWeeklyDropdown (){
+    
+    for (let pick of weeklyPicks) {
+    let TheOption = new Option(pick.name);
+  
+    weeklyPicksDropdown.appendChild(TheOption);
+  }
+}
+
+function onWeeklyPickDropdownChanged(){
+
 }
 
 
