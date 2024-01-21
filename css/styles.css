@@ -3,6 +3,17 @@
   background-color: #ce6690;
 }
 
+
+
+ .carousel-item{
+ 
+max-height: 630px;
+  margin-right: 10px;
+} 
+
+
+
+
 #LoginImg {
   margin-left:auto;
   margin-right: auto;
@@ -15,8 +26,8 @@
 
 #Members1 {
   border: none;
-  background-color: transparent
-  text-color: white 
+  background-color: transparent;
+  color: white;
 }
 
 
