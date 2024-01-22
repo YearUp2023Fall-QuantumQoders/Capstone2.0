@@ -33,7 +33,7 @@ function onWeeklyPickDropdownChanged() {
           
             let descParagraph = document.createElement('p');
             descParagraph.textContent = desc;
-        
+            descParagraph.id="descparagraph";
             let pickImg = new Image();
             pickImg.src = `images/${pick.img}`;
             pickImg.id="weeklypickimage"
@@ -46,9 +46,7 @@ function onWeeklyPickDropdownChanged() {
             displayPicksDiv.appendChild(descParagraph);
         }
     }
+   
 }
-
-
-
 
 
