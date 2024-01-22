@@ -36,6 +36,7 @@ function onWeeklyPickDropdownChanged() {
         
             let pickImg = new Image();
             pickImg.src = `images/${pick.img}`;
+            pickImg.id="weeklypickimage"
             
            
             displayPicksDiv.innerHTML = '';
