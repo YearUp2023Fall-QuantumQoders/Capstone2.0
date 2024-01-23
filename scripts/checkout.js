@@ -1,7 +1,11 @@
 "use strict"
 
+const checkoutBtn = document.getElementById("checkoutBtn");
+
+
 window.onload = () =>{
     displayCartItems();
+    checkoutBtn.onclick = checkoutCart;
 }
 
 const displayCartItems = () =>{
@@ -26,4 +30,9 @@ const displayCartItems = () =>{
         });
         
         finalCost.innerText = total + "$";
+}
+
+const checkoutCart = () =>{
+    sessionStorage.removeItem('cart'); 
+    window.location.href = 'Index.html';
 }
